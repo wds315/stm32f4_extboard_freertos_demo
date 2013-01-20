@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+Z:\Code\STM32F4-FreeRTOS-Demo\project\FreeRTOS-Demo.uvproj
+Project File Date:  08/21/2012
+
+<h2>Output:</h2>
+Build target 'FreeRTOS_Demo'
+compiling utils.c...
+linking...
+.\output\FreeRTOS-Demo1.axf: Error: L6218E: Undefined symbol vSetMemsDump (referred from debug.o).
+.\output\FreeRTOS-Demo1.axf: Error: L6218E: Undefined symbol LIS302DL_TIMEOUT_UserCallback (referred from stm32f4_discovery_lis302dl.o).
+Target not created
+Build target 'FreeRTOS_Demo'
+compiling mems.c...
+compiling utils.c...
+..\src\utils.c(205): warning:  #177-D: variable "GPIO_InitStructure" was declared but never referenced
+linking...
+Program Size: Code=16978 RO-data=662 RW-data=212 ZI-data=6532  
+".\output\FreeRTOS-Demo1.axf" - 0 Error(s), 1 Warning(s).
+Build target 'FreeRTOS_Demo'
+compiling utils.c...
+linking...
+Program Size: Code=16978 RO-data=662 RW-data=212 ZI-data=6532  
+".\output\FreeRTOS-Demo1.axf" - 0 Error(s), 0 Warning(s).
+Load "Z:\\Code\\STM32F4-FreeRTOS-Demo\\project\\output\\FreeRTOS-Demo1.AXF" 
+Clean started: Project: 'FreeRTOS-Demo'
+   deleting intermediate output files for target 'FreeRTOS_Demo'
